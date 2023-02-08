@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{D99AC548-B575-46F6-A6B4-B7E3F8B2E5FC}|AuthenticationService">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AuthenticationService/Startup.cs">
+    <Files>
+      <File FileName="AuthenticationService/Startup.cs" Line="97" Column="1" />
+      <File FileName="AuthenticationService/Automapper/Mapping.cs" Line="19" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AuthenticationService" expanded="True" selected="True">
+            <Node name="AuthenticationService" expanded="True">
+              <Node name="Automapper" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.AuthenticationService PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <Debugger.DebugSourceFolders />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

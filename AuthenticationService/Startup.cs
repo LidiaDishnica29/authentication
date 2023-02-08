@@ -21,6 +21,7 @@ using Serilog;
 using Microsoft.AspNetCore.Identity;
 using AuthenticationService.Interfaces;
 using AuthenticationService.Services;
+using AutoMapper.Internal;
 
 namespace AuthenticationService
 {
@@ -92,13 +93,15 @@ namespace AuthenticationService
 
             //swagger
             services.AddSwaggerDocumentation();
+            services.AddAutoMapper(cfg => cfg.Internal().MethodMappingEnabled = false, typeof(Mapping).Assembly);
 
-            //automapper
             var mappingConfig = new MapperConfiguration(mc =>
             {
+                mc.Internal().MethodMappingEnabled = false;
                 mc.AddProfile(new Mapping());
             });
-
+            //automapper
+           
             IMapper mapper = mappingConfig.CreateMapper();
             services.AddSingleton(mapper);
 
